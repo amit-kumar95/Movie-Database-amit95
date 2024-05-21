@@ -1,0 +1,29 @@
+.unOrder-list-movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.empty-view-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 170px;
+}
+
+.loader-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+  padding: 20px;
+  font-size: 25px;
+}

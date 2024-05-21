@@ -1,0 +1,101 @@
+.navbar-container {
+  background-image: linear-gradient(
+    to right,
+    #9e1fc4,
+    #5b1fc4,
+    #1f53c4,
+    #1f7ac4
+  );
+
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 60px;
+  margin: 0px;
+  border: 5px double #f26f7d;
+  border-radius: 12px;
+}
+
+.movie-logo {
+  font-weight: 800;
+  color: #222b38;
+}
+
+.nav-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 130px;
+}
+
+.input-search-container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #acc3e8;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.search-input {
+  background-color: #ffffff;
+  padding: 11px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: Roboto;
+  font-style: italic;
+  color: #2d333b;
+  width: 280px;
+  border-right: none;
+}
+
+.search-button {
+  background-color: #ffffff;
+  color: #064a10;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto;
+  width: 70px;
+  border: 0px;
+}
+
+.nav-items-list {
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
